@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Family Members Recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body class="BodyBack">
+        <h1>Family Members Recognition</h1>
+        <h2>You can Recognise</h2>
+        <br>
+        <br>
+        <h4>Me, Vibha</h4><hr>
+        <h4>My Mother</h4><hr>
+        <h4>My Father</h4><hr>
+        <h4>My Grandmother</h4><hr>
+        <h4>My Grandfather</h4><hr>
+        <h4>Webcam View for Recognising:</h4>
+        <center>
+            <div id="Cam"></div>
+        <div id="Snap"></div>
+        </center>
+        <br>
+        <button type="button" id="TakeSnap">Take Picture</button>
+        <br><br>
+        <button type="button" id="Find">How Much the Device Recognises it</button>
+        <br>
+        <h4>Family Member: </h4><span id="Member"></span>
+        <h4>Accuracy: </h4><span id="Accuracy"></span>
+    </body>
+</html>
